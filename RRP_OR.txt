@@ -1,0 +1,1412 @@
+
+# General
+Browser=Chrome
+Main_URL2=https://hbrrb.crmnext.com/sngold6/app/login/login
+Main_URLE=https://hbrrb.crmnext.com/sngold6/app/login/login
+Main_URL1=http://hbrrb.crmnext.com/sngold7/app/login/login
+Main_URL=https://hbrrb.crmnext.com/sngold6_prod/app/login/login
+
+Username=//input[@id='TxtName']
+Password=//input[@id='TxtPassword']
+Login=//input[@type='submit']
+
+Borrower_Homepage11=https://hbrrb.crmnext.com/sngold6_prod/app/CRMNextObject/Home/Account
+Borrower_Homepage2=https://hbrrb.crmnext.com/sngold6/app/CRMNextObject/Home/Account
+Borrower_Homepage1=http://hbrrb.crmnext.com/sngold7/app/CRMNextObject/Home/Account
+Borrower_Homepage=http://hbrrb.crmnext.com/sngold6_prod/app/CRMNextObject/Home/Account
+
+plus_icon=//a[@data-autoid='New_0']
+plus_icon_LS=//a[@data-autoid='Lay_757372']
+
+Borrower_Creation_URL11=http://hbrrb.crmnext.com/sngold6_prod/app/crmnextobject/RunFlow/Account?x=wmlptkyqwxpv4bxdnz3cm5b2aejn7wunaedzuy3lfcjh5ype4x7fsn783hmqwza927yul44urk8resspgscumhpxz69ff6f5kw9bnt2
+Borrower_Creation_URL2=http://hbrrb.crmnext.com/sngold6/app/crmnextobject/RunFlow/Account?x=wmlptkyqwxpv4bxdnz3cm5b2aejn7wunaedzuy3lfcjh5ype4x7fsn783hmqwza927yul44urk8resspgscumhpxz69ff6f5kw9bnt2
+Borrower_Creation_URL1=http://hbrrb.crmnext.com/sngold7/app/crmnextobject/RunFlow/Account?x=wmlptkyqwxpv4bxdnz3cm5b2aejn7wunaedzuy3lfcjh5ype4x7fsn783hmqwza927yul44urk8resspgscumhpxz69ff6f5kw9bnt2
+Borrower_Creation_URL=http://hbrrb.crmnext.com/sngold6_prod/app/crmnextobject/RunFlow/Account?x=wmlptkyqwxpv4bxdnz3cm5b2aejn7wunaedzuy3lfcjh5ype4x7fsn783hmqwza927yul44urk8resspgscumhpxz69ff6f5kw9bnt2
+
+Borrower_ID_Search=//input[@data-autoid='100000000_ctrl']
+Industry_ID_Search=(//input[@data-autoid='100000001_ctrl'])[2]
+Borrower_ID_Search_Rating=(//input[@data-autoid='100000002_ctrl'])[1]
+
+/html/body/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div/div/div[2]/div/div/div[1]/div[1]/div/div/div/div/div/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div/div/div/input
+//*[@id="objectWrapper"]/div/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div/div/div/input
+//*[@id="objectWrapper"]/div/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div/div/div/input
+
+Search_Button=//a[@data-autoid='Fetch']
+Search_Button1=(//a[@data-autoid='Fetch'])[2]
+Proceed_Button=//a[@data-autoid='WidgetActionButton']
+Category_View=//[@class='selectbox']
+Sub_Category_View=//*[@data-autoid='QueryViewId_ctrl']
+Confirmation_OK=//button[contains(text(),'Ok')]
+Confirmation_Cancel=//button[contains(text(),'Cancel')]
+Edit_Button=//a[@data-autoid='Edit_0']
+Revise_button=//button[contains(text(),'Revise')]
+Tab_Menu_Arrow=//div[@data-autoid='tabmenu_icon']
+Status_Code_DetailsPage=//span[@data-autoid='STATUSCODEID_ctrl']
+Rejected_Status_Code_DetailsPage=//span[@data-autoid='AC_STATUSCODE_ctrl']
+
+Status_Code=//span[@data-autoid='STATUSCODEID_ctrl']
+Header_User_Icon=//img[@data-autoid='header_usericon']
+Logout_link=//a[@data-autoid='Logout_link']
+
+#############Borrower Creation#####################
+PAN=//input[@data-autoid='AC_PANNUMBER_ctrl']
+PAN_Detail=//span[@data-autoid='AC_PANNUMBER_ctrl']
+
+Borrower_Name=//input[@data-autoid='AC_NAME_ctrl']
+Borrower_Name_Detail=//span[@data-autoid='AC_NAME_ctrl']
+
+Date_of_Commencement=//input[@data-autoid='cust_497_ctrl']
+
+Company_Type=//select[@name='cust_32']
+Company_type_Detail=//span[@data-autoid='cust_32_ctrl']
+
+Asset_Class=//input[@data-autoid='cust_33_ctrl']
+Asset_Class_Detail=//span[@data-autoid='cust_33_ctrl']
+
+Lending_Type=//input[@data-autoid='cust_34_ctrl']
+Lending_Type_Detail=//span[@data-autoid='cust_34_ctrl']
+
+Business_Type=//input[@data-autoid='cust_35_ctrl']
+Business_Type_Detail=//span[@data-autoid='cust_35_ctrl']
+
+Constitution=//a[@data-autoid='cust_2360_srch']
+Constitution_Detail=//span[@data-autoid='cust_2360_ctrl']
+
+Market_Segment=//a[@data-autoid='cust_3034_srch']
+Market_Segment_Detail=//span[@data-autoid='cust_3034_ctrl']
+
+Group_Name=//a[@data-autoid='cust_2361_srch']
+Group_Name_Detail=//span[@data-autoid='cust_2361_ctrl']
+
+Additional_Comment=//textarea[@data-autoid='cust_733_ctrl']
+
+RBI_Code1=//a[@data-autoid='cust_3060_srch']
+RBI_Code1_Detail=//span[@data-autoid='cust_3060_ctrl']
+
+RRP_Industry1=//a[@data-autoid='cust_3062_srch']
+RRP_Industry1_Detail=//span[@data-autoid='cust_3062_ctrl']
+
+Grid_Search_Box=//input[@data-autoid='Grid_SearchTextBox_ctrl']
+Grid_Search_Box_Button=//a[@class='filterGroup__button']
+Save_Proceed =//a[@data-autoid='FlowNext']
+Borrower_ID =//span[@data-autoid='AC_ID_ctrl']
+Borrower_ID1 =//div[@data-autoid='AC_ID']/div/div/span
+
+Child_Borrower_tab=//span[contains(text(),'Child Borrower')]
+Child_New_Borrower_link=//a[@data-autoid='LBL_NEWACCOUNTACCOUNT_CHILD_ACCOUNTS0']
+
+
+###########Borrower Upload documents and Financial upload############
+Documents_Tab=(//*[contains(text(),'Documents')])
+Attach_New_Document=//a[@data-autoid='LINK_MULTIPLE_DOCUMENTSAC_RELATED_ATTACHMENTS1']
+Attachment_Icon2=//input[@name='qqfile']//parent::div
+#Attachment_Icon=(//div[@class='docUploader'])[1]
+Attachment_Icon=//div[@class='file-selector']
+#Attachment_Icon=//i[@class='icon icon-viewattachment f4']
+File_Financial_Upload=//div[@Class='file-selector']
+Description=//textarea[@data-autoid='DM_DESCRIPTION_ctrl']
+
+Finacial_upload_tab=//*[contains(text(),'Financial Upload')]
+Upload_Data=//a[@data-autoid='LINK_UPLOADOBJECTACC_RELATED_BALSHEET0']
+Save_Button=//a[@data-autoid='Save']
+Import_Button=//a[@data-autoid='Import_0']
+Borrower_DocTab_NoData1=//div[@data-autoid='StatusCode_0']
+Borrower_DocTab_NoData=//div[@class='no-data__message']
+No_Data=//div[@class='no-data']
+
+Select_year=//*[@id="newobject"]/div/div[2]/div/div/div/div/div/div[2]/div[5]/div/div/div/div/div/div/select
+
+############################ END #####################################
+
+
+###########Authorize/Need more info######################
+
+Home_Borrower=/html/body/div[2]/div[1]/div/ul/li[1]/div/div[1]/a[1]
+                   
+Send_for_Approval_Button=//span[contains(text(),'Send for Approval')]
+Self_Assign_Button=//span[contains(text(),'Self Assign Borrower')]
+Authorize_Comment=//textarea[@data-autoid='cust_3152_ctrl']
+Update_Comment=//a[@data-autoid='Update_0']
+Authorize_Button=//span[contains(text(),'Authorize')]
+NeedMoreInfo_Button=//span[contains(text(),'Need More Info')]
+NeedMoreInfo_Comment=//textarea[@data-autoid='cust_733_ctrl']
+Feedback_Reason=//select[@data-autoid='cust_9223_ctrl']
+Feedback_Reason1=//div[@class='selectbox-container field__item']/div/select
+Double_Click=//option[contains(text(),'Update date of commencement')]
+Information_Provided=//span[contains(text(),'Information Provided')]
+Reject_Borrower_Button=//span[contains(text(),'Reject')]
+Reject_Comment=//textarea[@data-autoid='cust_27_ctrl']
+
+
+###########RE-Reassignment###############
+RM_Reassignment=//span[contains(text(),'RM Reassignment')]
+RM_Search_icon=//a[@data-autoid='cust_39_srch']
+Helpdesk_Reassignment=//span[contains(text(),'Helpdesk Reassignment')]
+
+
+###########Rating Initiation###########
+Rating_Initiation_Button=//span[contains(text(),'Rating Initiation')]
+
+Click_Here_to_Fetch=//a[@id='WEBR_26']
+
+Click_Here_to_Fetch2=//a[contains(text(),'Click here to fetch')]
+Click_Here_to_Fetch1=//a[contains(@id,'WEBR_27')]
+Select_Year=//div[@data-autoid='F1877_0']
+Next_button=//span[contains(text(),'Next')]
+
+
+yes=//option[contains(text(),"Yes")]
+
+
+
+
+
+################ RA approved ###################
+Apporve_Rating_Button=//span[contains(text(),'Approve Rating')]
+RA_rational=//textarea[@data-autoid='cust_3154_ctrl']
+Rating_Outlook=//select[@data-autoid='cust_2842_ctrl']
+RA_Approval_Comment=//textarea[@data-autoid='cust_787_ctrl']
+Final_Rating_Button=//span[contains(text(),'Final Rating Approved')]
+
+Pending_for_Dissagree_Button=//span[contains(text(),'Pending For Disagreement')]
+Pending_for_Dissagree_Button1=//span[contains(text(),'Pending for Disagreement')]
+Large_mfg_model=//span[contains(text(),'Large Manufacturer New Model')]
+Small_services_model=//div[contains(text(),'small services')]
+large_mfg1_model=//div[contains(text(),'large manufacturer')]
+
+################ RA Reverse ####################
+
+Submit_for_Approval_Button=//span[contains(text(),'Submit for Approval')]
+Search_Button_RA=//a[contains(@data-autoid,'cust_761_srch')]
+Rating_Reverse=//a[contains(@title,'Reverse Rating')]
+Reverse_Reason_Srh_iocn=//div[@class='form-element__control']/div/div/a
+Reverse_Reason2=//input[@name='checkbox1']/following-sibling::label
+Reverse_Reason1=//label[@class='react-grid-checkbox-label']
+
+Reverse_Reason=//body/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/label[1]
+Emp_code=//div[@data-autoid='employeecode_0']
+
+
+############## RA Reject#############
+Reject_Rating_Button=//span[contains(text(),'Reject Rating')]
+Reject_Rating_Reason=//textarea[@data-autoid='cust_788_ctrl']
+
+##############Review Provided#############
+Review_Required_Button=//span[contains(text(),'Review Required')]
+Credit_User_Search_Icon=//a[@data-autoid='cust_3020_srch']
+Business_Risk_Interpretation=//select[@data-autoid='cust_8867_ctrl']
+AnyOther_Feedback=//textarea[@data-autoid='cust_8877_ctrl']
+Edit_button01=//span[contains(text(),'Edit')]
+Review_Provided=//span[contains(text(),'Review Provided')]
+Sent_Back_RA_Button=//span[contains(text(),'Send back to RA')]
+Sent_Back_RA_Button1=//span[contains(text(),'Send Back to RA')]
+
+####Warning Signal
+Compute_Rating=//span[contains(text(),'Compute Rating')]
+Business_Risk_Warning_Signal_Search=//a[contains(@data-autoid,'cust_621_srch')]
+NBFCBusiness_Risk_Warning_Signal_Search=//a[contains(@data-autoid,'cust_622_srch')]
+Warning_Signal_tab1=//span[contains(text(),'Warning Signals')]
+Warning_Signal_tab=//span[@data-autoid='tab_5']
+Warning_Signal_Click_Here_fetch=//a[@id='WEBR_19']
+
+NBFCSignificant=(//div[contains(text(),'Significant')])[2]
+Significant=(//div[contains(text(),'Significant')])
+Business_Risk_Section_Arrow=//label[@data-autoid='sec_5_2']//following::i[1]
+
+#### Override Filling
+Override_tab=//span[contains(text(),'Overrides')]
+Business_Risk_Override_Search=//a[contains(@data-autoid,'cust_3064_srch')]
+Other_factors_Override=//div[contains(text(),'Other Factors')]
+Override1_Srch=//a[contains(@data-autoid,'cust_3083_srch')]
+Override1_Value=//div[contains(text(),'The parameter is part of the model, but the weightage of the parameter is not appropriate')]
+parameter_field=//a[@data-autoid='cust_19850_srch']
+parametr_value=//div[contains(text(),'Brand Equity')]
+Override_Value2=//select[@data-autoid,'cust_786_ctrl')]
+Override_Value=//div[@class='selectbox-container field__item']/div/select
+Override_Apprrover2_srch=//a[contains(@data-autoid,'cust_2413_srch')]
+Override_Approve_Button=//a[@data-autoid='None_0']
+Override_Approve_Comment=//textarea[@data-autoid='cust_787_ctrl']
+OA_User=//div[@data-autoid='employeecode_0']
+Override_SentBack_Comment=//textarea[@data-autoid='cust_776_ctrl']
+
+Additional_Override_Value=//*[@id="newobject"]/div/div[2]/div/div/div[2]/div/div[1]/div/div[2]/div[10]/div[1]/div/div/div/div/div/select
+Additional_Override_Comment=//input[@data-autoid='cust_238_ctrl']
+Override_Approver_3_delete=//a[@data-autoid='cust_2416_del']  
+Override_Approver_2_delete=//a[@data-autoid='cust_2413_del']
+Override_Approver_1_delete=//a[@data-autoid='cust_2412_del']
+
+Override_Approver_3=//a[@data-autoid='cust_2416_srch']
+Override_Approver_2=//a[@data-autoid='cust_2413_srch']
+Override_Approver_1=//a[@data-autoid='cust_2412_srch']
+
+Approval_Comments=//textarea[@data-autoid='cust_787_ctrl']
+OA1_Approval_Comments=//textarea[@data-autoid='cust_3154_ctrl']
+
+
+
+####ICR/FCR Withdraw rating####
+
+ICR_Button=//span[contains(text(),'Generate ICR')]
+Related_Attachment_Tab=//span[contains(text(),'Related Attachments')]
+FCR_Button=//span[contains(text(),'Generate FCR')]
+Withdraw_Button=//span[contains(text(),'Withdraw Rating')]
+
+###########Rating Initiation###########
+Rating_Initiation_Button=//span[contains(text(),'Rating Initiation')]
+
+Click_Here_to_Fetch=//a[@id='WEBR_26']
+
+Click_Here_to_Fetch2=//a[contains(text(),'Click here to fetch')]
+Click_Here_to_Fetch1=//a[contains(@id,'WEBR_27')]
+Select_Year=//div[@data-autoid='F1877_0']
+Next_button=//span[contains(text(),'Next')]
+#########################################
+############ SME Model Rating ##################
+SME_Model=//div[contains(text(),'SME Model')]
+
+Financial_Risk_Tab=//span[@data-autoid='tab_2']
+Unsecured_Funding_Charge=//select[@data-autoid='cust_205_ctrl']
+Non_Financial_Risk_Tab1=//span[@data-autoid='tab_3']
+Non_Financial_Risk_Tab=//*[contains(text(),'Non-Financial')]
+##Non-Financial
+Product_Segment=//a[@data-autoid='cust_680_srch']
+Market_concentration=//a[@data-autoid='cust_681_srch']
+Long_term_contracts=//a[@data-autoid='cust_682_srch']
+Competitive_Advantage=//a[@data-autoid='cust_683_srch']
+Composition_of_Management1=//a[@data-autoid='cust_685_srch']
+Legal_Structure=//a[@data-autoid='cust_687_srch']
+Ability_to_raise_funds=//a[@data-autoid='cust_688_srch']
+
+yes=//option[contains(text(),"Yes")]
+##########################################
+############### BANK Rating #####################
+Select_Recommended_Model=//div[@data-autoid="F1004_0"]
+Financial_Risk=//span[contains(text(),'Financial Risk')]
+
+Business_Risk=//span[contains(text(),'Business Risk')]
+
+#Financial_Risk#:
+Ability_to_Raise_Capital=//a[@data-autoid='cust_1441_srch']
+Liquidity_Risk=//a[@data-autoid='cust_1442_srch']
+##Bussiness_Risk:
+Diversity_in_Deposit_Base=//a[@data-autoid='cust_1432_srch']
+Systems_and_Monitoring=//a[@data-autoid='cust_1437_srch']
+Perceived_Service_Quality=//a[@data-autoid='cust_1438_srch']
+Diversity_of_Income_Sources=//a[@data-autoid='cust_1448_srch']
+
+#Management_Risk#:
+
+Management_Risk=//span[contains(text(),'Management Risk')]
+Change_Management_Skills=//a[@data-autoid='cust_1443_srch']
+Track_Record_of_Performance=//a[@data-autoid='cust_1444_srch']
+Ownership_/_Shareholding_Pattern_/_Management_Continuity=//a[@data-autoid='cust_1445_srch']
+Corporate_Governance=//a[@data-autoid='cust_1446_srch']
+Vision/Strategy_of_Top_Management=//a[@data-autoid='cust_1447_srch']
+
+Industry_Risk=//span[contains(text(),'Industry Risk')]
+#########################################################
+################ LCM OLD RATING #########################
+
+Assessment_Area=//select[@data-autoid='cust_8967_ctrl']
+Assessment_A=//option[contains(text(),'Company with Project')]
+Project_Industry=//a[@data-autoid='cust_8969_srch']
+Project_Name=//input[@data-autoid='cust_248_ctrl']
+#Financial_Risk:
+Fin_Risk=//span[contains(text(),'Fin Risk')]
+Accounting_Quality_-_Past=//a[@data-autoid='cust_9097_srch']
+Contingent_Liabilities1=//a[@data-autoid='cust_9098_srch']
+Management_of_foreign_exchange_and_fund_repatriation_risk=//a[@data-autoid='cust_8680_srch']
+Expand_Collapse_Financial_Flexibility_of_Company=//label[@data-autoid='sec_2_2']//following::i[2]
+Ability_to_raise_debt_from_Banks_/_Financial_Institutions=//a[@data-autoid='cust_8681_srch']
+Ability_to_raise_debt_from_Market=//a[@data-autoid='cust_8656_srch']
+Ability_to_raise_equity_from_own_sources=//a[@data-autoid='cust_8657_srch']
+Ability_to_raise_equity_from_Capital_market=//a[@data-autoid='cust_8658_srch']
+#Business_Risk:
+Biz_Risk=//span[contains(text(),'Biz Risk')]
+#Operating Efficiency:
+Contribution=//input[@data-autoid='cust_1331_ctrl']
+Integration_of_operations=//a[@data-autoid='cust_8613_srch']
+Multi_-_locational_advantage=//a[@data-autoid='cust_8614_srch']
+Availability_of_Raw_Materials=//a[@data-autoid='cust_8618_srch']
+Management_of_price_volatility=//a[@data-autoid='cust_8622_srch']
+#Market Position:
+Proximity_to_market=//a[@data-autoid='cust_8637_srch']
+Long_term_contracts_/_Assured_offtake=//a[@data-autoid='cust_8638_srch']
+Distribution_Setup=//a[@data-autoid='cust_8639_srch']
+Financial_ability_to_withstand_price_competition=//a[@data-autoid='cust_8640_srch']
+#Management Risk:
+Mgmt_Risk=//span[contains(text(),'Mgmt Risk')]
+Quality_of_Information_submitted_by_the_Company-_Integrity=//a[@data-autoid='cust_8660_srch']
+Working_Capital_Management=//a[@data-autoid='cust_8661_srch']
+Corporate_Governance1=//a[@data-autoid='cust_8662_srch']
+
+Business_and_Financial_Policy=//a[@data-autoid='cust_8663_srch']
+Experience_in_the_industry=//a[@data-autoid='cust_8664_srch']
+Managerial_Competence=//a[@data-autoid='cust_8665_srch']
+Expand_Collapse_Track_Record=//label[@data-autoid='sec_4_2']//following::i[2]
+Ability_to_meet_sales_projection=//a[@data-autoid='cust_8666_srch']
+Ability_to_meet_profit_projection=//a[@data-autoid='cust_8667_srch']
+Expand_Collapse_Payment_Record=//label[@data-autoid='sec_4_3']//following::i[2]
+Past_PaymentRecord=//a[@data-autoid='cust_8668_srch']
+Expand_Collapse_Other_Fators=//label[@data-autoid='sec_4_4']//following::i[2]
+Management_Proactiveness=//a[@data-autoid='cust_8669_srch']
+Group_Support=//a[@data-autoid='cust_8670_srch']
+Strategic_Initiatives=//a[@data-autoid='cust_8671_srch']
+Management_Successions=//a[@data-autoid='cust_8672_srch']
+Labour_Relations=//a[@data-autoid='cust_8673_srch']
+#Industry_Risk:
+IND_Risk=//span[contains(text(),'Ind Risk')]
+#Project Risk1:
+Project_Risk1=//span[contains(text(),'Project Risk 1')]
+Expected_time_overrun_(Months)=//input[@data-autoid='cust_8704_ctrl']
+Expected_/_Balance_Project_Duration_(Months)=//input[@data-autoid='cust_8707_ctrl']
+Stabilisation=//a[@data-autoid='cust_8674_srch']
+Project_Complexity=//a[@data-autoid='cust_8675_srch']
+Clearances=//a[@data-autoid='cust_8676_srch']
+Expand_Collapse_Funding_Risk=//label[@data-autoid='sec_6_2']//following::i[2]
+Financial_Closure=//a[@data-autoid='cust_8677_srch']
+Financial_Flexibility1=//a[@data-autoid='cust_8678_srch']
+
+#Project Risk2:
+Project_Risk2=//span[contains(text(),'Project Risk 2')]
+Gearing_(Ratio)=//input[@data-autoid='cust_8928_ctrl']
+Cash_Breakeven_(%_to_sales_of_the_optimum_year_of_sales)=//input[@data-autoid='cust_8709_ctrl']
+Sensitivity_of_avg_DSCR_to_10%_change_in_sales_(Ratio)=//input[@data-autoid='cust_8710_ctrl']
+Internal_Rate_of_Return_(%)=//input[@data-autoid='cust_8712_ctrl']
+Debt_Service_Coverage_Ratio_(Ratio)=//input[@data-autoid='cust_8713_ctrl']
+Expand_Collapse_Management_Risk_Payment_Record=//label[@data-autoid='sec_7_2']//following::i[2]
+Past_Payment_Record=//a[@data-autoid='cust_8930_srch']
+Expand_Collapse_Management_Risk-_OtherFactors=//label[@data-autoid='sec_7_3']//following::i[2]
+Strategic_initiatives=//a[@data-autoid='cust_8931_srch']
+Management_succession=//a[@data-autoid='cust_8932_srch']
+Labour_relations=//a[@data-autoid='cust_8933_srch']
+Group_support=//a[@data-autoid='cust_8934_srch']
+Management_proactiveness=//a[@data-autoid='cust_8935_srch']
+Expand_Collapse_Management_Risk-_Managementtrackrecord=//label[@data-autoid='sec_7_4']//following::i[2]
+Integrity=//a[@data-autoid='cust_8679_srch']
+Business_and_Financial_policy=//a[@data-autoid='cust_8936_srch']
+Managerial_competence=//a[@data-autoid='cust_8937_srch']
+Experience_in_the_Industry1=//a[@data-autoid='cust_8938_srch']
+Expand_Collapse_Management_Risk-_Credibility=//label[@data-autoid='sec_7_5']//following::i[2]
+Ability_to_meet_Sales_Projection=//a[@data-autoid='cust_8929_srch']
+Ability_to_meet_Profit_Projection1=//a[@data-autoid='cust_8939_srch']
+
+#Project Biz Risk:
+
+Project_Biz_Risk=//span[contains(text(),'Project Biz Risk')]
+Selling_cost=//a[@data-autoid='cust_8615_srch']
+Capacity_Utilisation=//a[@data-autoid='cust_8617_srch']
+
+Product_design_and_development=//a[@data-autoid='cust_8623_srch']
+Brand_Equity=//a[@data-autoid='cust_8631_srch']
+After_sales_service=//a[@data-autoid='cust_8636_srch']
+#Distribution_Setup#=//a[@data-autoid='cust_8639_srch']
+Product_range=//a[@data-autoid='cust_8642_srch']
+
+######################################################
+################ BrokerRating #########################
+Rating_Initiate=//span[contains(text(),'Rating Initiation')]
+Select_Rating_Year=//a[@id='WEBR_26']
+Next=//span[contains(text(),'Next')]
+Year_of_Assessment=//div[@data-autoid="F1877_0"]
+Year_Assessment1=//div[@title='2019']
+Recommended_Models=//a[@id='WEBR_27']
+Select_Recommended_Model=//div[@data-autoid="F1004_0"]
+
+#Financial_Risk:
+
+Accounting_Quality=//a[@data-autoid='cust_1410_srch']
+Contingent_Liabilities=//a[@data-autoid='cust_1409_srch']
+Financial_Flexibility=//a[@data-autoid='cust_1099_srch']
+Expand_Collapse_F1=//label[@data-autoid='sec_2_1']//following::i[2]
+
+#Bussiness_Risk:
+#Business_Risk=//span[contains(text(),'Business Risk')]
+Client_Base=//a[@data-autoid='cust_1016_srch']
+Client_Profile=//a[@data-autoid='cust_1022_srch']
+Sub_Broker_Risk=//a[@data-autoid='cust_1033_srch']
+Litigation_Risk=//a[@data-autoid='cust_1025_srch']
+Expand_Collapse_B1=//label[@data-autoid='sec_3_1']//following::i[2]
+Regulatory_Compliance=//a[@data-autoid='cust_1035_srch']
+Presence_of_Comprehensive_Risk_Management_Policy=//a[@data-autoid='cust_1038_srch']
+Online_Monitoring_of_Exposures=//a[@data-autoid='cust_1040_srch']
+Line_of_control=//a[@data-autoid='cust_1042_srch']
+Extent_of_computerisation_of_back-end_operations=//a[@data-autoid='cust_1045_srch']
+Internal_Audit_System=//a[@data-autoid='cust_1054_srch']
+Stock_Exchange_Membership=//a[@data-autoid='cust_1061_srch']
+Expand_Collapse_B2=//label[@data-autoid='sec_3_2']//following::i[2]
+Income_from_broking_operations=//a[@data-autoid='cust_1063_srch']
+Trend_in_Broking_Income=//a[@data-autoid='cust_1068_srch']
+Presence_in_Diversified_Business_Segments_within_Broking=//a[@data-autoid='cust_1071_srch']
+Captive_/_Assured_Business=//a[@data-autoid='cust_1073_srch']
+Expand_Collapse_B3=//label[@data-autoid='sec_3_3']//following::i[2]
+Own_Account_Trading=//a[@data-autoid='cust_1076_srch']
+
+#Management_Risk:
+Management_Risk=//span[contains(text(),'Management Risk')]
+Personal_Networth_of_Promoter=//a[@data-autoid='cust_1078_srch']
+Legal_Ownership=//a[@data-autoid='cust_1079_srch']
+Background_&_Strength_of_Promoters=//a[@data-autoid='cust_1081_srch']
+Profile_of_top_management=//a[@data-autoid='cust_1082_srch']
+Group_Companies_Transactions=//a[@data-autoid='cust_1096_srch']
+Overall_Risk_Appetite_of_the_Management=//a[@data-autoid='cust_1098_srch']
+
+Industry_Risk=//span[contains(text(),'Industry Risk')]
+Rating_Save=//span[contains(text(),'Save and proceed')]
+Rating_Id=//span[@data-autoid='SUBJECT_ctrl']
+Status_Code=//span[@data-autoid='STATUSCODEID_ctrl']
+
+######################################################
+################Judgemental Rating####################
+Assessment_Type=//select[@data-autoid='cust_1581_ctrl']
+
+Select_Recommended_Model2=//div[@data-autoid="F1004_1"]
+Model_Form=//span[contains(text(),'Model Form')]
+Background=//textarea[@data-autoid='cust_3023_ctrl']
+Business_Risk_Assessment=//textarea[@data-autoid='cust_3024_ctrl']
+Industry_Risk_Assessment=//textarea[@data-autoid='cust_3025_ctrl']
+Financial_Risk_Assessment=//textarea[@data-autoid='cust_3026_ctrl']
+Management_Risk_Assessment=//textarea[@data-autoid='cust_3027_ctrl']
+Reason_for_not_rating_in_RAM_System=//textarea[@data-autoid='cust_3028_ctrl']
+Recommended_Judgemental_Rating=//select[@data-autoid='cust_3029_ctrl']
+Recommended_Judgemental=//option[contains(text(),'JR 3')]
+
+##############################################################
+###################### NBFC Rating ###########################
+
+Earnings_Quality=//a[@data-autoid='cust_1075_srch']
+Liquidity_and_Financial_Flexibility= //a[@data-autoid='cust_1077_srch']
+
+Credit_Appraisal_and_Recovery_System=//a[@data-autoid='cust_1058_srch']
+Diversity_of_Resource_Profile=//a[@data-autoid='cust_1069_srch']
+Cost_of_Resources=//a[@data-autoid='cust_1072_srch']
+
+
+Risk_Management_System=//a[@data-autoid='cust_1080_srch']
+Ability_to_meet_sales_projections=//a[@data-autoid='cust_1083_srch']
+Payment_Record=//a[@data-autoid='cust_1104_srch']
+Expand_Collapse_Track_MeetSales=//label[@data-autoid='sec_4_1']//following::i[2]
+Ability_to_meet_profit_projections=//a[@data-autoid='cust_1109_srch']
+Risk_Appetite=//a[@data-autoid='cust_1111_srch']
+Experience_in_Industry=//a[@data-autoid='cust_1113_srch']
+Credibility=//a[@data-autoid='cust_1115_srch']
+Management_Competence=//a[@data-autoid='cust_1117_srch']
+
+Market_Position_1=//a[@data-autoid='cust_1062_srch']
+
+Notch_up_factors=//span[contains(text(),'Notch up Factors')]
+Ownership_/_Shareholding_Structure=//a[@data-autoid='cust_1122_srch']
+Management_Control=//a[@data-autoid='cust_1124_srch']
+Stated_posture_of_parent_towards_NBFC=//a[@data-autoid='cust_1127_srch']
+Past_Track_Record=//a[@data-autoid='cust_1129_srch']
+Brand_name=//a[@data-autoid='cust_1133_srch']
+
+##########################################################
+################### Commodity Broker ######################
+##Financial_Risk#:
+Financial_Flexibility2=//a[@data-autoid='cust_1141_srch']
+Inflator_Deflator=//label[@data-autoid='sec_2_1']//following::i[1]
+Accounting_Quality_Delete=//a[@data-autoid='cust_1412_del']
+Accounting_Quality1=//a[@data-autoid='cust_1412_srch']
+Contigent_Liabilities=//a[@data-autoid='cust_1411_srch']
+#Bussiness_Risk#:
+Client_Base_and_Profile=//a[@data-autoid='cust_1100_srch']
+Litigation_Risk1=//a[@data-autoid='cust_1106_srch']
+Commodity_Mix_(Diversification)=//a[@data-autoid='cust_1110_srch']
+Commodity_Volumes_in_the_Exchange=//a[@data-autoid='cust_1112_srch']
+Business_Model=//a[@data-autoid='cust_1114_srch']
+Presence_of_Comprehensive_Risk_Management_Policy1=//a[@data-autoid='cust_1116_srch']
+Intraday_Monitoring_Of_Exposures=//a[@data-autoid='cust_1118_srch']
+Line_Of_Control=//a[@data-autoid='cust_1119_srch']
+Internal_Audit_System1=//a[@data-autoid='cust_1120_srch']
+Group_Exchange_Membership=//a[@data-autoid='cust_1123_srch']
+Regulatory_Compliance1=//a[@data-autoid='cust_1125_srch']
+Income_from_broking_Operations=//a[@data-autoid='cust_1126_srch']
+Trend_In_Broking_Income=//a[@data-autoid='cust_1128_srch']
+#Management_Risk#:
+Legal_Ownership1=//a[@data-autoid='cust_1132_srch']
+Background_&_Strength_of_Promoters1=//a[@data-autoid='cust_1134_srch']
+Group_Companies_Transactions1=//a[@data-autoid='cust_1136_srch']
+Overall_Risk_Appetite_Of_The_Management1=//a[@data-autoid='cust_1138_srch']
+Working_Capital_Management1=//a[@data-autoid='cust_1130_srch']
+
+######################################################
+######################### Port ######################
+Phase_Selection_Infra_2=//select[@data-autoid='cust_8588_ctrl']
+Build_phase=//span[contains(text(),'Build Phase Risk')]
+
+Financial_Closure1=//a[@data-autoid='cust_8335_srch']
+Financial_Flexibility3=//a[@data-autoid='cust_8337_srch']
+Completion_Risk_Expand_Collapse=//label[@data-autoid='sec_2_2']//following::i[1]
+Clearances1=//a[@data-autoid='cust_8338_srch']
+Gestation_Period=//a[@data-autoid='cust_8339_srch']
+Execution_Risk_D_Expand_Collapse=//label[@data-autoid='sec_2_3']//following::i[1]
+Reputation_of_Design_Consultant=//a[@data-autoid='cust_8340_srch']
+Choice_of_Equipment=//a[@data-autoid='cust_8341_srch']
+Execution_Risk_C_Expand_Collapse=//label[@data-autoid='sec_2_4']//following::i[1]
+Contractor_Experience=//a[@data-autoid='cust_8342_srch']
+Contractors_Creditworthiness=//a[@data-autoid='cust_8343_srch']
+Safeguards_in_Contract=//a[@data-autoid='cust_8344_srch']
+Stabilization_Risk_Expand=//label[@data-autoid='sec_2_5']//following::i[1]
+Stabilization_Risk2=//a[@data-autoid='cust_8345_srch']
+
+Operational_Phase=//span[contains(text(),'Operational Phase Risk')]
+
+Location_of_the_port=//a[@data-autoid='cust_8346_srch']
+Long_term_contracts_/_Assured_Offtake=//a[@data-autoid='cust_8347_srch']
+Handling_cost_(Cargo_Handling_cost)=//a[@data-autoid='cust_8349_srch']
+Average_ship_turnaround_time=//a[@data-autoid='cust_8350_srch']
+Cargo_Mix=//a[@data-autoid='cust_8352_srch']
+Berth_Throughput=//a[@data-autoid='cust_8354_srch']
+Labour_productivity=//a[@data-autoid='cust_8355_srch']
+Operation_and_Maintenance_Risk=//a[@data-autoid='cust_8357_srch']
+Business_Risk_External_Expand_Collapse=//label[@data-autoid='sec_3_2']//following::i[1]
+Competitive_Environment3=//a[@data-autoid='cust_8359_srch']
+Demand_supply_Gap=//a[@data-autoid='cust_8361_srch']
+Environmental_/_Social_Impact=//a[@data-autoid='cust_8363_srch']
+Environmental_Risk_Expand_Collapse=//label[@data-autoid='sec_3_3']//following::i[1]
+Government_Policy/Regulatory_Risk=//a[@data-autoid='cust_8365_srch']
+Other_Key_Risk_Expand_Collapse=//label[@data-autoid='sec_3_4']//following::i[1]
+Sponsor_Risk3=//a[@data-autoid='cust_8367_srch']
+Project_Criticality_Risk=//a[@data-autoid='cust_8369_srch']
+Management_Quality_Risk=//a[@data-autoid='cust_8370_srch']
+Financial_Risk_Expand_Collapse=//label[@data-autoid='sec_3_5']//following::i[1]
+Debt_Service_Coverage_Ratio=//input[@data-autoid='cust_8405_ctrl']
+Debt/Equity=//input[@data-autoid='cust_8406_ctrl']
+Internal_Rate_of_Return=//input[@data-autoid='cust_8407_ctrl']
+Breakeven_of_Revenue_Projected=//input[@data-autoid='cust_8408_ctrl']
+Sensitivity_to_Revenue=//input[@data-autoid='cust_8409_ctrl']
+Sensitivity_to_Cost=//input[@data-autoid='cust_8410_ctrl']
+Degree_of_Exposure_to_Interest_Rate=//a[@data-autoid='cust_8372_srch']
+Reasonability_of_Project_Assumption=//a[@data-autoid='cust_8374_srch']
+
+######################################################
+#########################Power ######################
+
+#Operational_Phase Risk
+Critical_Expand_Collapse=//label[@data-autoid='sec_3_4']//following::i[2]
+Financial_Expand_Collapse=//label[@data-autoid='sec_2_6']//following::i[2]
+Cost_base_of_the_Project=//a[@data-autoid='cust_8319_srch']
+Offtake_risk_(used_for_BOT_projects_only)1=//a[@data-autoid='cust_8320_srch']
+Environmental_/_Social_Impact1=//a[@data-autoid='cust_8321_srch']
+Counter_Party_Risk=//a[@data-autoid='cust_8322_srch']
+Fuel_Risk=//a[@data-autoid='cust_8323_srch']
+Operation_and_Maintenance_Risk1=//a[@data-autoid='cust_8324_srch']
+Plant_Availability_Factor=//a[@data-autoid='cust_8325_srch']
+Plant_Load_Factor_(optional_factor)=//a[@data-autoid='cust_8326_srch']
+Competitive_Environment1=//a[@data-autoid='cust_8327_srch']
+Demand_supply_Gap1=//a[@data-autoid='cust_8328_srch']
+Government_Policy/Regulatory_Risk1=//a[@data-autoid='cust_8329_srch']
+Sponsor_Risk1=//a[@data-autoid='cust_8330_srch']
+Project_Criticality_Risk1=//a[@data-autoid='cust_8331_srch']
+Management_Quality_Risk1=//a[@data-autoid='cust_8333_srch']
+
+Degree_of_Exposure_to_Interest_Rate1=//a[@data-autoid='cust_8334_srch']
+Reasonability_of_Project_Assumption1=//a[@data-autoid='cust_8336_srch']
+
+#Build_Phase_Risk#
+Financial_Closure2=//a[@data-autoid='cust_8309_srch']
+Financial_flexibility4=//a[@data-autoid='cust_8310_srch']
+Clearances2=//a[@data-autoid='cust_8311_srch']
+Gestation_Period1=//a[@data-autoid='cust_8312_srch']
+Execution_Risk_Technology_Expand_Collapse=//label[@data-autoid='sec_2_3']//following::i[2]
+Execution_Risk_Construction_Expand_Collapse=//label[@data-autoid='sec_2_4']//following::i[2]
+Stabilization_Risk_Expand_Collapse=//label[@data-autoid='sec_2_5']//following::i[2]
+Reputation_of_Design_Consultant1=//a[@data-autoid='cust_8313_srch']
+Proven_Technology=//a[@data-autoid='cust_8314_srch']
+Contractor_Experience1=//a[@data-autoid='cust_8315_srch']
+Contractors_Creditworthiness1=//a[@data-autoid='cust_8316_srch']
+Safeguards_in_Contract1=//a[@data-autoid='cust_8317_srch']
+Stabilization_Risk1=//a[@data-autoid='cust_8318_srch']
+
+######################################################
+#########################Road ######################
+##Build_Phase_Risk#
+Select_Recommended_Model3=//div[@data-autoid="F1004_2"]
+Financial_Closure3=//a[@data-autoid='cust_8348_srch']
+Financial_flexibility5=//a[@data-autoid='cust_8351_srch']
+Clearances3=//a[@data-autoid='cust_8353_srch']
+Completion_Risk_Key_Completion_Risk_Expand_Collapse=//label[@data-autoid='sec_1_2']//following::i[2]
+Execution_Risk_Technology_Expand_Collapse1=//label[@data-autoid='sec_1_3']//following::i[2]
+Execution_Risk_Constrution_Expand_Collapse1=//label[@data-autoid='sec_1_4']//following::i[2]
+Gestation_Period2=//a[@data-autoid='cust_8356_srch']
+Land_Acquisition=//a[@data-autoid='cust_8358_srch']
+Reputation_of_Design_Consultant2=//a[@data-autoid='cust_8360_srch']
+Contractor_Experience2=//a[@data-autoid='cust_8362_srch']
+Contractors_Creditworthiness2=//a[@data-autoid='cust_8364_srch']
+Safeguards_in_Contract2=//a[@data-autoid='cust_8366_srch']
+
+#Operational_Phase_Risk#
+Offtake_risk_(used_for_BOT_projects_only)=//a[@data-autoid='cust_8368_srch']
+Counter_Party_Risk1=//a[@data-autoid='cust_8371_srch']
+Flexibility_of_Increasing_Toll_Rates=//a[@data-autoid='cust_8373_srch']
+Appropriateness_of_Toll_Pricing_(optional_factor)=//a[@data-autoid='cust_8375_srch']
+Operation_and_Maintenance_Risk2=//a[@data-autoid='cust_8376_srch']
+Efficiency_of_Toll_collection=//a[@data-autoid='cust_8377_srch']
+Competitive_Environment2=//a[@data-autoid='cust_8378_srch']
+Status_of_Feeder_and_Distributary_Network=//a[@data-autoid='cust_8379_srch']
+Government_Policy/Regulatory_Risk2=//a[@data-autoid='cust_8380_srch']
+Sponsor_Risk2=//a[@data-autoid='cust_8381_srch']
+Project_Criticality_Risk2=//a[@data-autoid='cust_8382_srch']
+Management_Quality_Risk2=//a[@data-autoid='cust_8383_srch']
+
+Degree_of_Exposure_to_Interest_Rate2=//a[@data-autoid='cust_8384_srch']
+Reasonability_of_Project_Assumption2=//a[@data-autoid='cust_8385_srch']
+######################################################
+#########################Trader#######################
+
+Diversity_of_Markets_Product_Mix=//a[@data-autoid='cust_702_srch']
+Distribution_set_up_and_reach=//a[@data-autoid='cust_703_srch']
+Advantages_due_to_size=//a[@data-autoid='cust_704_srch']
+Distribution_/_logistics_cost=//a[@data-autoid='cust_705_srch']
+Bargaining_power_with_suppliers=//a[@data-autoid='cust_706_srch']
+
+Business_and_Financial_Policy=//a[@data-autoid='cust_714_srch']
+Quality_of_Information_submitted_by_the_Company=//a[@data-autoid='cust_716_srch']
+Experience_in_the_Trade_Segment=//a[@data-autoid='cust_717_srch']
+Managerial_Competence=//a[@data-autoid='cust_724_srch']
+Ability_to_meet_sales_projection2=//a[@data-autoid='cust_725_srch']
+Ability_to_meet_profit_projection2=//a[@data-autoid='cust_726_srch']
+Group_Support1=//a[@data-autoid='cust_727_srch']
+Management_Successions1=//a[@data-autoid='cust_728_srch']
+Strategic_Initiatives_Management_Proactiveness=//a[@data-autoid='cust_729_srch']
+Payment_Record1=//a[@data-autoid='cust_730_srch']
+
+Demand_Supply_Gap2=//a[@data-autoid='cust_697_srch']
+Government_Policies=//a[@data-autoid='cust_699_srch']
+Extent_of_Competition10=//a[@data-autoid='cust_700_srch']
+Input_Related_Risk10=//a[@data-autoid='cust_701_srch'
+
+Variance_in_Operating_Cash_Flow=//a[@data-autoid='cust_707_srch']
+Management_of_foreign_exchange_and_fund_repatriation_risk=//a[@data-autoid='cust_708_srch']
+Accounting_Quality_Past=//a[@data-autoid='cust_731_srch']
+Ability_to_raise_debt_from_Banks_Financial_Institutions1=//a[@data-autoid='cust_709_srch']
+Ability_to_raise_debt_from_Market_(Debentures_/_Bonds_/_Comm=//a[@data-autoid='cust_710_srch']
+Ability_to_raise_fund_from_Own_sources=//a[@data-autoid='cust_712_srch']
+Ability_to_raise_fund_from_Capital_market=//a[@data-autoid='cust_713_srch']
+AbilitytoRaiseDebt_Expand_Collapse=//label[@data-autoid='sec_5_3']//following::i[2]
+AbilitytoRaiseEquity_Expand_Collapse=//label[@data-autoid='sec_5_4']//following::i[2]
+#####################################################################
+######################### RD #######################
+ASSET_CHARACTERSTICS=//span[contains(text(),'Asset Characterstics')]
+Location_of_Property=//a[@data-autoid='cust_3174_srch']
+Competitive_Environment=//a[@data-autoid='cust_1732_srch']
+Type_of_Property=//a[@data-autoid='cust_1734_srch']
+Status_of_Property=//a[@data-autoid='cust_1735_srch']
+Property_Size=//a[@data-autoid='cust_1736_srch']
+
+Lessee_CHARACTERSTICS=//span[contains(text(),'Lessee Characteristics')]
+LD=//a[@data-autoid='Lay_101224']
+Name=//input[@data-autoid='SUBJECT_ctrl']
+Lessee_Active=//select[@data-autoid='cust_2881_ctrl']
+Loan_Amount_(INR_MILLION)=//input[@data-autoid='cust_2883_ctrl']
+Net_Sales_(INR_MILLION)=//input[@data-autoid='cust_2908_ctrl']
+PAT_(INR_MILLION)=//input[@data-autoid='cust_1051_ctrl']
+Depriciation=//input[@data-autoid='cust_2909_ctrl']
+Networth_(INR_Million)=//input[@data-autoid='cust_1049_ctrl']
+Total_Debt_(INR_MILLION)=//input[@data-autoid='cust_2965_ctrl']
+Status_of_Lessee=//select[@data-autoid='cust_2968_ctrl']
+Tenor_of_Loan_in_comparison_with_Lease_Tenor=//a[@data-autoid='cust_1749_srch']
+Significance_of_Investment_made_by_the_Lessee=//a[@data-autoid='cust_1750_srch']
+Tenor_of_Loan=//a[@data-autoid='cust_1751_srch']
+Margin_on_Rentals_(Actual_/_Proposed)=//a[@data-autoid='cust_1752_srch']
+Contracted_Rental_Rate_v/s_prevailing_Rental_Rate=//a[@data-autoid='cust_1753_srch']
+
+Add=//a[@data-autoid='Update_0']
+OWNER_CHARACTERSTICS=//span[contains(text(),'Owner Characterstics')]
+Sponsor_Risk=//select[@data-autoid='cust_2969_ctrl']
+External_Rating_of_Lessor=//a[@data-autoid='cust_1755_srch']
+############################################################
+################### LIFE INSURANCE #########################
+
+Ability_to_raise_Equity=//a[@data-autoid='cust_1152_srch']
+Liquidity=//a[@data-autoid='cust_1413_srch']
+
+Brand_Equity_&_Market_Share=//a[@data-autoid='cust_1143_srch']
+Distribution_channels_controlled=//a[@data-autoid='cust_1145_srch']
+Geographical_diversification=//a[@data-autoid='cust_1147_srch']
+
+Experience_in_Industry=//a[@data-autoid='cust_1172_srch']
+Credit_rating_of_International_partner=//a[@data-autoid='cust_1177_srch']
+Warnings_and_penalities_BY_IRDA_(Deflators)=//a[@data-autoid='cust_1179_srch']
+
+Systemic_Import=//span[contains(text(),'Systemic Importance')]
+Systemic_Importance=//a[@data-autoid='cust_1183_srch']
+############################################################
+################### MUTUAL FUND #########################
+
+Ability_to_raise_Debt_from_Banks_/_Financial_Institutions2=//a[@data-autoid='cust_1184_srch']
+Ability_to_raise_funds_through_additional_subscriptions_/_New_fund_offerings=//a[@data-autoid='cust_1185_srch']
+Ability_to_raise_funds_from_the_promoter_/_group=//a[@data-autoid='cust_1187_srch']
+
+Experience_in_Industry1=//a[@data-autoid='cust_1200_srch']
+Credit_Standing_of_the_Main_Promoter_(Domestic_/_International)=//a[@data-autoid='cust_1204_srch']
+Quality_of_Information_submitted_by_the_company=//a[@data-autoid='cust_1206_srch']
+Past_Payment_Record1=//a[@data-autoid='cust_1208_srch']
+###############################################################
+################## Scheduled Commercial Bank ##################
+
+Ability_to_Raise_Capital_/_Subordinate_Debt=//a[@data-autoid='cust_1148_srch']
+
+High_Risk_Sector_Exposure/Total_Exposure=//a[@data-autoid='cust_1137_srch']
+Diversity_in_Deposit_Base=//a[@data-autoid='cust_1140_srch']
+Perceived_Service_Quality=//a[@data-autoid='cust_1144_srch']
+Diversity_of_Income_Sources=//a[@data-autoid='cust_1146_srch']
+
+ManagementQuality=//a[@data-autoid='cust_1150_srch']
+RiskControls=//a[@data-autoid='cust_1153_srch']
+ProvisionCR=//a[@data-autoid='cust_1160_srch']
+Market_Share=//a[@data-autoid='cust_1414_srch']
+Gross_NPAs_/_Gross_Advances_(Percentage)=//a[@data-autoid='cust_1166_srch']
+Return_on_Assets=//a[@data-autoid='cust_1169_srch']
+Profit_and_Volatility=//a[@data-autoid='cust_1156_srch']
+Corporate_Governance2=//a[@data-autoid='cust_1417_srch']
+
+Multiplier=//span[contains(text(),'Multiplier')]
+Systemic_Risk=//a[@data-autoid='cust_1416_srch']
+Government_Support=//a[@data-autoid='cust_1415_srch']
+###########################################################
+###############################SIMPLIFIED ###############################
+
+Turnover_Size=//a[@data-autoid='cust_1233_srch']
+Turnover_Growth=//a[@data-autoid='cust_1235_srch']
+PAT_Size=//a[@data-autoid='cust_1238_srch']
+PAT_Sales=//a[@data-autoid='cust_1240_srch']
+Networth=//a[@data-autoid='cust_1242_srch']
+TOL_TNW=//a[@data-autoid='cust_1243_srch']
+Financial_Availability=//a[@data-autoid='cust_1245_srch']
+Financial_Flexibility6=//a[@data-autoid='cust_1246_srch']
+Contingent_Liabilities2=//a[@data-autoid='cust_1247_srch']
+
+Position_in_the_target_market_and_Strength_of_brands=//a[@data-autoid='cust_1211_srch']
+Proximity_to_Customers1=//a[@data-autoid='cust_1213_srch']
+Assessment_on_Immediate_Buyers=//a[@data-autoid='cust_1217_srch']
+Capability_to_meet_demand_and_changing_customer_needs=//a[@data-autoid='cust_1221_srch']
+Input_Cost_(_Raw_material_/Human_Resource/_Energy)_Availability_and_Volatility=//a[@data-autoid='cust_1222_srch']
+
+Experience_in_Business_and_Management_Competence_track_record=//a[@data-autoid='cust_1224_srch']
+Management_Constitution=//a[@data-autoid='cust_1227_srch']
+Group=//a[@data-autoid='cust_1229_srch']
+Payment_Record3=//a[@data-autoid='cust_1231_srch']
+
+Comparison_between_Micro_industry_and_Macro_industry=//a[@data-autoid='cust_1210_srch']
+############################################################
+############################### SME OLD ###############################
+Assessment_Area_SME=//select[@data-autoid='cust_9271_ctrl']
+Project_Industry_SME=//a[@data-autoid='cust_8968_srch']
+Project_Name_SME=//input[@data-autoid='cust_9272_ctrl']
+
+Confirmation=//button[contains(text(),'Ok')]
+
+Management_of_foreign_exchange_and_fund_repatriation_risk=//a[@data-autoid='cust_8735_srch']
+Contingent_Liabilities3=//a[@data-autoid='cust_8977_srch']
+Accounting_Quality2=//a[@data-autoid='cust_8978_srch']
+Ability_to_raise_debt_from_Banks_/_Financial_Institutions=//a[@data-autoid='cust_8743_srch']
+Ability_to_raise_debt_from_own_sources=//a[@data-autoid='cust_8745_srch']
+Ability_to_raise_equity_from_capital_markets=//a[@data-autoid='cust_8747_srch']
+
+Pricing_/_Bargaining_power_with_customers=//a[@data-autoid='cust_8715_srch']
+Position_of_the_entity_in_its_target_market=//a[@data-autoid='cust_8717_srch']
+Assessment_of_immediate_buyers=//a[@data-autoid='cust_8719_srch']
+Nature_of_economy_of_export_country=//a[@data-autoid='cust_8723_srch']
+Dependence_on_customers=//a[@data-autoid='cust_8724_srch']
+Marketing_and_Selling_arrangement=//a[@data-autoid='cust_8726_srch']
+Criticality_of_the_component_manufactured=//a[@data-autoid='cust_8727_srch']
+Proximity_to_Customers=//a[@data-autoid='cust_8742_srch']
+Availability_of_key_raw_materials=//a[@data-autoid='cust_8728_srch']
+Bargaining_Power_with_Suppliers=//a[@data-autoid='cust_8730_srch']
+Availability_of_skilled_manpower=//a[@data-autoid='cust_8731_srch']
+Environment_risk=//a[@data-autoid='cust_8732_srch']
+Capacity_utilization=//a[@data-autoid='cust_8733_srch']
+Nature_of_technology_employed=//a[@data-autoid='cust_8734_srch']
+Flexibility_in_manufacturing=//a[@data-autoid='cust_8736_srch']
+Availability_of_power_and_other_utilities=//a[@data-autoid='cust_8737_srch']
+Trend_in_unit_price_of_raw_materials=//a[@data-autoid='cust_8739_srch']
+
+Constitution_of_the_Borrower=//a[@data-autoid='cust_8757_srch']
+Credentials_and_background_of_the_promoters=//a[@data-autoid='cust_8759_srch']
+Competence_/_Technical_skills_of_the_management=//a[@data-autoid='cust_8763_srch']
+Strategic_Initiatives_by_the_management=//a[@data-autoid='cust_8764_srch']
+Management_Succession_Plans=//a[@data-autoid='cust_8765_srch']
+Years_of_experience_in_the_same_line_of_business=//a[@data-autoid='cust_8766_srch']
+Group_support_Financial_interaction_with_group_companies=//a[@data-autoid='cust_8769_srch']
+Payment_Record2=//a[@data-autoid='cust_8770_srch']
+
+Stage_in_the_life_cycle_of_the_industry=//a[@data-autoid='cust_8714_srch']
+Environmental_Issues=//a[@data-autoid='cust_8716_srch']
+Demand_supply_scenario=//a[@data-autoid='cust_8718_srch']
+Competition=//a[@data-autoid='cust_8720_srch']
+Impact_of_Government_policies=//a[@data-autoid='cust_8721_srch']
+Impact_of_change_in_technology=//a[@data-autoid='cust_8722_srch']
+Length_of_operating_cycle=//a[@data-autoid='cust_8725_srch']
+
+PROJECT_IMPLEMENTATION_RISK=//span[contains(text(),'Project Implementation Risk')]
+Ability_of_promoters_to_execute_project_Project=//a[@data-autoid='cust_8753_srch']
+Gestation_Period_Project=//a[@data-autoid='cust_8754_srch']
+Availability_of_Infrastructure_Facilities_Project=//a[@data-autoid='cust_8755_srch']
+Credentials_of_Main_Machinery_Supplier_Project=//a[@data-autoid='cust_8756_srch']
+Obtaining_Key_Clearances_Project=//a[@data-autoid='cust_8758_srch']
+Expand_Collapse_Funding_Risk=//label[@data-autoid='sec_6_1']//following::i[2]
+Tie_up_of_funds_Project=//a[@data-autoid='cust_8760_srch']
+Financial_Flexibility_Project=//a[@data-autoid='cust_8762_srch']
+
+PROJECT_POST_IMPLEMENTATION_RISK=//span[contains(text(),'Project Post Implementation Risk')]
+Sensitivity_to_Revenue_Project_(Ratio)=//input[@data-autoid='cust_8767_ctrl']
+Project_Debt_Equity_Ratio_Project_(Ratio)=//input[@data-autoid='cust_8768_ctrl']
+Internal_Rate_of_Return(Post_Tax)_Project_(%)=//input[@data-autoid='cust_8771_ctrl']
+Breakeven_Sales_Project_(%)=//input[@data-autoid='cust_8772_ctrl']
+Average_Debt_Service_Coverage_ratio_Project_(Ratio)=//input[@data-autoid='cust_8773_ctrl']
+Expand_Collapse_Industry_Risk_Project=//label[@data-autoid='sec_7_1']//following::i[2]
+Environmental_Issues_Project=//a[@data-autoid='cust_8775_srch']
+Impact_of_change_in_technology_Project=//a[@data-autoid='cust_8777_srch']
+Length_of_operating_cycle_Project=//a[@data-autoid='cust_8780_srch']
+Demand_supply_scenario_Project=//a[@data-autoid='cust_8781_srch']
+Competition_Project=//a[@data-autoid='cust_8783_srch']
+Impact_of_Government_policies_Project=//a[@data-autoid='cust_8786_srch']
+Management_Risk_Project_Expand_Collapse=//label[@data-autoid='sec_7_2']//following::i[2]
+Group_support_Financial_interaction_with_group_cos_Project=//a[@data-autoid='cust_8774_srch']
+Years_of_experience_in_the_same_line_of_business_Project=//a[@data-autoid='cust_8776_srch']
+Constitution_of_Borrower_Project=//a[@data-autoid='cust_8778_srch']
+Credentials_and_background_of_the_promoters_Project=//a[@data-autoid='cust_8779_srch']
+Competence_/_technical_skills_of_the_mgmt_Project=//a[@data-autoid='cust_8782_srch']
+Strategic_Initiatives_by_the_mgmt_Project=//a[@data-autoid='cust_8784_srch']
+Management_Succession_Plans_Project=//a[@data-autoid='cust_8785_srch']
+Payment_Track_Record_Project=//a[@data-autoid='cust_8788_srch']
+
+
+Position_of_entity_in_its_target_market_Project=//a[@data-autoid='cust_8790_srch']
+Proximity_to_the_Market_Project=//a[@data-autoid='cust_8791_srch']
+Expected_contribution_of_Exports_in_Sales_Project=//a[@data-autoid='cust_8792_srch']
+Nature_of_economy_of_export_country_Project=//a[@data-autoid='cust_8800_srch']
+Business_Risk_Project_MP_Expand_Collapse=//label[@data-autoid='sec_7_3']//following::i[2]
+Dependency_of_unit_on_customers_Project=//a[@data-autoid='cust_8795_srch']
+Criticality_of_component_proposed_to_be_mfgd_by_unit_Project=//a[@data-autoid='cust_8796_srch']
+Expected_Geographical_reach_of_the_entity_Project=//a[@data-autoid='cust_8798_srch']
+Nature_of_Contracts_Marketing_Selling_arrangement_Project=//a[@data-autoid='cust_8799_srch']
+
+Business_Risk_Project_OE_Expand_Collapse=//label[@data-autoid='sec_7_4']//following::i[2]
+Availability_of_skilled_manpower_Project=//a[@data-autoid='cust_8802_srch']
+Environment_Risk_Project=//a[@data-autoid='cust_8804_srch']
+Nature_of_technology_proposed_to_be_employed_Project=//a[@data-autoid='cust_8805_srch']
+Flexibility_in_manufacturing_Project=//a[@data-autoid='cust_8801_srch']
+Availability_of_key_raw_materials_Project=//a[@data-autoid='cust_8803_srch']
+Availability_of_power_and_other_utilities_Project=//a[@data-autoid='cust_8806_srch']
+#####################################################
+#################### SME SERVICE ####################
+
+QUICK_LINKS=//a[@data-autoid='sidebar_quicklinks_anchor']
+Quicklink_search=//span[contains(text(),'Borrower Search_Test')]
+
+QUICK_LINKS=//a[@data-autoid='sidebar_quicklinks_anchor']
+Quicklink_search=//span[contains(text(),'Borrower Search_Test')]
+Years_of_experience_in_the_same_line_of_business1=//a[@data-autoid='cust_8832_srch']
+Nature_of_Management=//a[@data-autoid='cust_8834_srch']
+Litigations_against_the_entity=//a[@data-autoid='cust_8835_srch']
+Payment_Track_Record=//a[@data-autoid='cust_8850_srch']
+Group_support_Financial_interaction_with_group_companies1=//a[@data-autoid='cust_8851_srch']
+Management_succession_plans1=//a[@data-autoid='cust_8852_srch']
+Credentials_of_the_family_running_owning_the_business=//a[@data-autoid='cust_8853_srch']
+Competence_Technical_skills_of_the_management=//a[@data-autoid='cust_8854_srch']
+Strategic_Initiatives_by_the_management1=//a[@data-autoid='cust_8855_srch']
+
+Capability_Potential_for_Innovation_Creativity=//a[@data-autoid='cust_8816_srch']
+Perceived_Service_Quality=//a[@data-autoid='cust_8819_srch']
+Selling_Terms_and_dependency_of_unit_on_customers=//a[@data-autoid='cust_8821_srch']
+Assessment_of_immediate_buyer=//a[@data-autoid='cust_8823_srch']
+Position_of_entity_in_its_target_market=//a[@data-autoid='cust_8824_srch']
+Utilization_Efficiency=//a[@data-autoid='cust_8825_srch']
+Processes_and_Controls=//a[@data-autoid='cust_8826_srch']
+Ability_to_attract_Quality_Resources=//a[@data-autoid='cust_8827_srch']
+Employee_Turnover=//a[@data-autoid='cust_8829_srch']
+
+Management_of_foreign_exchange_and_fund_repatriation_risk1=//a[@data-autoid='cust_8814_srch']
+Contingent_Liabilities4=//a[@data-autoid='cust_8979_srch']
+Accounting_Quality_Past1=//a[@data-autoid='cust_8980_srch']
+Ability_to_raise_debt_from_Banks_Financial_Institutions=//a[@data-autoid='cust_8828_srch']
+Ability_to_raise_debt_from_own_sources1=//a[@data-autoid='cust_8830_srch']
+
+Demand_supply_scenario1=//a[@data-autoid='cust_8807_srch']
+Impact_of_Government_policies1=//a[@data-autoid='cust_8809_srch']
+Availability_of_Human_Resources=//a[@data-autoid='cust_8811_srch']
+Competition1=//a[@data-autoid='cust_8813_srch']
+
+Availability_of_Infrastructure_Facilities_Project1=//a[@data-autoid='cust_8831_srch']
+Credibility_of_Contractor_Equipment_Supplier_Project=//a[@data-autoid='cust_8833_srch']
+Ability_of_promoters_to_execute_project_Project1=//a[@data-autoid='cust_8836_srch']
+Gestation_Period_Project1=//a[@data-autoid='cust_8848_srch']
+Obtaining_Key_Clearances_Project1=//a[@data-autoid='cust_8849_srch']
+Tie_up_of_funds_Project1=//a[@data-autoid='cust_8856_srch']
+Financial_Flexibility_Project1=//a[@data-autoid='cust_8857_srch']
+
+Breakeven_Sales_Project_(%)1=//input[@data-autoid='cust_8922_ctrl']
+Internal_Rate_of_Return(Post_Tax)_Project=//input[@data-autoid='cust_8923_ctrl']
+Average_Debt_Service_Coverage_Ratio_Project=//input[@data-autoid='cust_8924_ctrl']
+Project_Debt_Equity_Ratio_Project=//input[@data-autoid='cust_8925_ctrl']
+Sensitivity_to_Revenue_Project=//input[@data-autoid='cust_8926_ctrl']
+Demand_Supply_Project=//a[@data-autoid='cust_8900_srch']
+Impact_of_Government_policies_Project1=//a[@data-autoid='cust_8901_srch']
+Availability_of_skilled_human_resources_Project=//a[@data-autoid='cust_8902_srch']
+Competition_Project1=//a[@data-autoid='cust_8903_srch']
+Management_Succession_Plan_Project=//a[@data-autoid='cust_8904_srch']
+Strategic_Initiatives_by_the_mgmt_Project1=//a[@data-autoid='cust_8905_srch']
+Years_of_existence_in_same_line_of_business_Project=//a[@data-autoid='cust_8906_srch']
+Nature_of_Management_Project=//a[@data-autoid='cust_8907_srch']
+Competence_Technical_skills_of_the_management_Project=//a[@data-autoid='cust_8908_srch']
+Payment_Track_Record_Project1=//a[@data-autoid='cust_8909_srch']
+Credentials_of_family_running_owning_the_business_Project=//a[@data-autoid='cust_8910_srch']
+Group_Support_Financial_Interaction_with_Group_Cos_Project1=//a[@data-autoid='cust_8911_srch']
+Assessment_of_Immediate_Buyers_Project=//a[@data-autoid='cust_8912_srch']
+Geographical_Reach_of_the_entity_Project=//a[@data-autoid='cust_8913_srch']
+Position_of_entity_in_its_target_market_Project1=//a[@data-autoid='cust_8914_srch']
+Perceived_Service_Quality_Project=//a[@data-autoid='cust_8915_srch']
+Capability_/_Potential_for_Innovation_/_Creativity_Project=//a[@data-autoid='cust_8916_srch']
+Selling_Terms_and_dependency_of_unit_on_customers_Project=//a[@data-autoid='cust_8917_srch']
+Utilization_Efficiency_Project=//a[@data-autoid='cust_8918_srch']
+Processes_and_Controls_Project=//a[@data-autoid='cust_8919_srch']
+Ability_to_attract_Quality_Resources_Project=//a[@data-autoid='cust_8920_srch']
+Employee_turnover_Project=//a[@data-autoid='cust_8921_srch']
+###############################################
+############# RA reverse ######################
+
+Reverse_Rating=//span[contains(text(),'Reverse Rating')]
+Discussion_Details=//textarea[@data-autoid='cust_776_ctrl']
+Reverse_Reason=//a[@data-autoid='cust_141_srch']
+checkbox_select=[for='checkbox0']
+Update=//span[contains(text(),'Update')]
+
+
+###############################################
+############# Industry LI ######################
+
+
+Industry=http://hbrrb.crmnext.com/sngold7/app/CRMNextObject/Home/Industry
+Industry_Creation1=//a[@data-autoid='Lay_205181')]
+Industry_Creation=//a[@title='INDUSTRY Creation']
+Name=//input[@data-autoid='SUBJECT_ctrl']
+Template=//select[@data-autoid='cust_3279_ctrl']
+QRF_Industry=//select[@data-autoid='cust_8301_ctrl']
+RBI_Code=//a[@data-autoid='Lay_5070']
+RBI_Code_Search=//a[@data-autoid='cust_9075_srch']
+Earnings_Volatility=//input[@data-autoid='cust_3257_ctrl']
+Extent_of_Competition=//input[@data-autoid='cust_3256_ctrl']
+Fund_Availablity=//input[@data-autoid='cust_3260_ctrl']
+Past_Profitability=//input[@data-autoid='cust_3258_ctrl']
+Regulatory_Impact_Govt_Policy=//input[@data-autoid='cust_3259_ctrl']
+Industry_ID=//span[@data-autoid='CUSTOMOBJECTID_ctrl']
+Industry_Status_Code=//span[@data-autoid='STATUSCODEID_ctrl']
+
+############# Industry MF ######################
+Earnings_Volatility1=//input[@data-autoid='cust_3262_ctrl']
+Extent_of_Competition1=//input[@data-autoid='cust_3264_ctrl']
+Government_Policies_/_Regulatory_Risk=//input[@data-autoid='cust_3263_ctrl']
+Past_profitability1=//input[@data-autoid='cust_3261_ctrl']
+############# Industry NBFC ######################
+Asset_Quality=//input[@data-autoid='cust_3265_ctrl']
+Competition1=//input[@data-autoid='cust_3270_ctrl']
+Earnings_Volatility2=//input[@data-autoid='cust_3267_ctrl']
+Funding_Availability=//input[@data-autoid='cust_3268_ctrl']
+Past_Profitability2=//input[@data-autoid='cust_3266_ctrl']
+Regulatory_Impact_Govt_Policy1=//input[@data-autoid='cust_3269_ctrl']
+
+
+###############Industry Bank#############
+Extent_of_Competition_In_Bank=//input[@data-autoid='cust_3247_ctrl']
+Regulatory_Environment=//input[@data-autoid='cust_3246_ctrl']
+State_of_the_economy=//input[@data-autoid='cust_3248_ctrl']
+
+###############Industry Broker#############
+Competitiveness=//input[@data-autoid='cust_3251_ctrl']
+Cyclicality=//input[@data-autoid='cust_3249_ctrl']
+Industry_Outlook=//input[@data-autoid='cust_3252_ctrl']
+Regulatory_Measures=//input[@data-autoid='cust_3250_ctrl']
+
+###############Industry Infra#############
+Government_Policy_In_Infra=//input[@data-autoid='cust_3253_ctrl']
+Competitive_Environment_In_Infra=//input[@data-autoid='cust_3254_ctrl']
+Demand_supply_Gap_In_Infra=//input[@data-autoid='cust_3255_ctrl']
+ 
+###############Industry Corporate#############
+Demand_supply_gap_In_Corp=//input[@data-autoid='cust_3271_ctrl']
+Extent_of_Competition_In_Corp=//input[@data-autoid='cust_3273_ctrl']
+Government_Policies_In_Corp=//input[@data-autoid='cust_3272_ctrl']
+Input_Related_Risks_In_Corp=//input[@data-autoid='cust_3274_ctrl']
+Weightage_for_Non_Financial=//input[@data-autoid='cust_8567_ctrl']
+
+Operating_Margin_In_Corp=//input[@data-autoid='cust_3276_ctrl']
+Return_on_Capital_Employed_In_Corp=//input[@data-autoid='cust_3275_ctrl']
+Variability_of_operating_margins_In_Corp=//input[@data-autoid='cust_3278_ctrl']
+Growth_in_Operating_Margin_In_Corp=//input[@data-autoid='cust_3277_ctrl']
+Weightage_for_Financial=//input[@data-autoid='cust_8566_ctrl']
+
+##########Industry Rating Initiation###########
+Click_here_to_fetch_Industry=//a[@id='WEBR_5099']
+Year_Select_Industry=//div[@data-autoid='F14360_0']
+
+##########Bank Industry Rating###########
+Regulatory_Environment_InR=//a[@data-autoid='cust_1154_srch']
+Regulatory_Environment_Comment=//textarea[@data-autoid='cust_8883_ctrl']
+
+Extent_of_Competition_InR=//a[@data-autoid='cust_1164_srch']
+Extent_of_Competition_InR_Comment=//textarea[@data-autoid='cust_8884_ctrl']
+
+State_of_the_economy_InR=//a[@data-autoid='cust_1167_srch']
+State_of_the_economy_InR_Comment=//textarea[@data-autoid='cust_8878_ctrl']
+Inflator_Deflator_Comment=//textarea[@data-autoid='cust_9161_ctrl']
+
+Ind_ID_Navigate=http://hbrrb.crmnext.com/sngold7/app/crmnextobject/detail/Industry?x=hsmdw724aekfyx89b3luma4gtk5wbq9ldphuwp6j6szbflqd9bgrs8csxxlac62h
+
+##########Broker Industry Rating###########
+Cyclicality_InR=//a[@data-autoid='cust_1304_srch']
+Cyclicality_InR_Comment=//textarea[@data-autoid='cust_8877_ctrl']
+
+Regulatory_Measures_InR=//a[@data-autoid='cust_1193_srch']
+Regulatory_Measures_InR_Comment=//textarea[@data-autoid='cust_8876_ctrl']
+
+Competitiveness_InR=//a[@data-autoid='cust_1215_srch']
+Competitiveness_InR_Comment=//textarea[@data-autoid='cust_8875_ctrl']
+
+Industry_Outlook_InR=//a[@data-autoid='cust_1226_srch']
+Industry_Outlook_InR_Comment=//textarea[@data-autoid='cust_8874_ctrl']
+
+##########Corporate Industry Rating###########
+Demand_supply_gap_InR=//a[@data-autoid='cust_1291_srch']
+Demand_supply_gap_InR_Comment=//textarea[@data-autoid='cust_9147_ctrl']
+
+Government_Policies_InR=//a[@data-autoid='cust_1292_srch']
+Government_Policies_InR_Comment=//textarea[@data-autoid='cust_9151_ctrl']
+
+Extent_of_Competition_InR_Corp=//a[@data-autoid='cust_1293_srch']
+Extent_of_Competition_InR_Corp_Comment=//textarea[@data-autoid='cust_9149_ctrl']
+
+Input_Related_Risks_InR=//a[@data-autoid='cust_1294_srch']
+Input_Related_Risks_InR_Comment=//textarea[@data-autoid='cust_9155_ctrl']
+
+OPBDIT_Y=//input[@data-autoid='cust_1296_ctrl']
+OPBDIT_Y_1=//input[@data-autoid='cust_1305_ctrl']
+OPBDIT_Y_2=//input[@data-autoid='cust_1306_ctrl']
+OPBDIT_Y_3=//input[@data-autoid='cust_1307_ctrl']
+OPBDIT_Y_4=//input[@data-autoid='cust_1308_ctrl']
+OPBDIT_Y_5=//input[@data-autoid='cust_1309_ctrl']
+OPBDIT_Y_6=//input[@data-autoid='cust_1310_ctrl']
+
+Aggregate_Turnover_Y=//input[@data-autoid='cust_1297_ctrl']
+Aggregate_Turnover_Y_1=//input[@data-autoid='cust_1311_ctrl']
+Aggregate_Turnover_Y_2=//input[@data-autoid='cust_1312_ctrl']
+Aggregate_Turnover_Y_3=//input[@data-autoid='cust_1313_ctrl']
+Aggregate_Turnover_Y_4=//input[@data-autoid='cust_1314_ctrl']
+Aggregate_Turnover_Y_5=//input[@data-autoid='cust_1315_ctrl']
+Aggregate_Turnover_Y_5=//input[@data-autoid='cust_1297_ctrl']
+Aggregate_Turnover_Y_6=//input[@data-autoid='cust_9239_ctrl']
+
+ROCE_Y=//input[@data-autoid='cust_1298_ctrl']
+ROCE_Y_1=//input[@data-autoid='cust_9240_ctrl']
+ROCE_Y_2=//input[@data-autoid='cust_1318_ctrl']
+ROCE_Y_3=//input[@data-autoid='cust_1319_ctrl']
+ROCE_Y_4=//input[@data-autoid='cust_1320_ctrl']
+ROCE_Y_5=//input[@data-autoid='cust_1321_ctrl']
+ROCE_Y_6=//input[@data-autoid='cust_1322_ctrl']
+
+
+##########Infra Industry Rating###########
+Government_Policy_infra_InR=//a[@data-autoid='cust_1273_srch']
+Government_Policy_infra_InR_Comment=//textarea[@data-autoid='cust_8870_ctrl']
+
+Competitive_Environment_infra_InR=//a[@data-autoid='cust_1274_srch']
+Competitive_Environment_infra_InR_Comment=//textarea[@data-autoid='cust_451_ctrl']
+
+Demand_supply_Gap_infra_InR=//a[@data-autoid='cust_1275_srch']
+Demand_supply_Gap_infra_InR_Comment=//textarea[@data-autoid='cust_450_ctrl']
+
+##########Life Insurance Industry Rating###########
+Extent_of_Competition_InR_Life=//a[@data-autoid='cust_1276_srch']
+Extent_of_Competition_InR_Life_Comment=//textarea[@data-autoid='cust_120_ctrl']
+
+Earnings_Volatility_InR=//a[@data-autoid='cust_1277_srch']
+Earnings_Volatility_InR_Comment=//textarea[@data-autoid='cust_9145_ctrl']
+
+Past_Profitablity_InR=//a[@data-autoid='cust_1278_srch']
+Past_Profitablity_InR_Comment=//textarea[@data-autoid='cust_9148_ctrl']
+
+Regulatory_Impact_InR=//a[@data-autoid='cust_1279_srch']
+Regulatory_Impact_InR_Comment=//textarea[@data-autoid='cust_9152_ctrl']
+
+Funding_Availablity_InR=//a[@data-autoid='cust_1280_srch']
+Funding_Availablity_InR_Comment=//textarea[@data-autoid='cust_9153_ctrl']
+
+
+########## NBFC Industry Rating###########
+Asset_quality_NBFC=//a[@data-autoid='cust_1285_srch']
+Asset_quality_NBFC_Comment=//textarea[@data-autoid='cust_9156_ctrl']
+
+Past_Profitability_NBFC=//a[@data-autoid='cust_1286_srch']
+Past_Profitability_NBFC_Comment=//textarea[@data-autoid='cust_9154_ctrl']
+
+Earnings_Volatility_NBFC=//a[@data-autoid='cust_1287_srch']
+Earnings_Volatility_NBFC_Comment=//textarea[@data-autoid='cust_9144_ctrl']
+
+Funding_Availability_NBFC=//a[@data-autoid='cust_1288_srch']
+Funding_Availability_NBFC_Comment=//textarea[@data-autoid='cust_9142_ctrl']
+
+Regulatory_Impact_NBFC=//a[@data-autoid='cust_1290_srch']
+Regulatory_Impact_NBFC_Comment=//textarea[@data-autoid='cust_9150_ctrl']
+
+Competition_NBFC=//a[@data-autoid='cust_1324_srch']
+Competition_NBFC_Comment=//textarea[@data-autoid='cust_9146_ctrl']
+
+#######Industry submit for approval#########
+Submit_for_Approval_Button_ind=//span[contains(text(),'Submit For Approval')]
+RA_Apporved=//span[contains(text(),'RA Approve')]
+
+##########Industry Report#####
+Generate_IIR=//span[contains(text(),'Generate IIR')]
+Generate_FIR=//span[contains(text(),'Generate FIR')]
+
+Attachment_Industry=//span[contains(text(),'Attachment')]
+
+##########Industry OA Approve and Reverse######
+
+Inflator_Deflator_Value=//input[@data-autoid='cust_1303_ctrl']
+Quick_Link=//a[@data-autoid='sidebar_quicklinks_anchor']
+Quick_Link_Industry_rating_srch=//a[@data-autoid='quicklinkitem_5']
+OA_Industry_Approve_Button=//a[@data-autoid='None_1']
+Approve_Ribbon=//span[contains(text(),'Approve')]
+
+OA_Industry_SendBack_Button=//a[@data-autoid='None_0']
+
+Industry_ID_Search1=//input[@data-autoid='100000001_ctrl']
+
+###############################################
+############# Industry LI ######################
+
+Industry=http://hbrrb.crmnext.com/sngold7/app/CRMNextObject/Home/Industry
+Industry1=http://hbrrb.crmnext.com/sngold7/app/crmnextobject/detail/Industry?x=hsmdw724aekfyx89b3luma4gtw4ppsnnmxuu6rk53amckhnz9bmpzludqjv2hq4w
+Industry_Creation1=//a[@data-autoid='Lay_205181')]
+Industry_Creation=//a[@title='INDUSTRY Creation']
+Name=//input[@data-autoid='SUBJECT_ctrl']
+Template=//select[@data-autoid='cust_3279_ctrl']
+QRF_Industry=//select[@data-autoid='cust_8301_ctrl']
+RBI_Code=//a[@data-autoid='Lay_5070']
+RBI_Code_Search=//a[@data-autoid='cust_9075_srch']
+Earnings_Volatility=//input[@data-autoid='cust_3257_ctrl']
+Extent_of_Competition=//input[@data-autoid='cust_3256_ctrl']
+Fund_Availablity=//input[@data-autoid='cust_3260_ctrl']
+Past_Profitability=//input[@data-autoid='cust_3258_ctrl']
+Regulatory_Impact_Govt_Policy=//input[@data-autoid='cust_3259_ctrl']
+Industry_ID=//span[@data-autoid='CUSTOMOBJECTID_ctrl']
+Industry_Status_Code=//span[@data-autoid='STATUSCODEID_ctrl']
+
+############################ Industry MF ######################
+Earnings_Volatility1=//input[@data-autoid='cust_3262_ctrl']
+Extent_of_Competition1=//input[@data-autoid='cust_3264_ctrl']
+Government_Policies_/_Regulatory_Risk=//input[@data-autoid='cust_3263_ctrl']
+Past_profitability1=//input[@data-autoid='cust_3261_ctrl']
+
+########################### Industry NBFC ######################
+Asset_Quality=//input[@data-autoid='cust_3265_ctrl']
+Competition1=//input[@data-autoid='cust_3270_ctrl']
+Earnings_Volatility2=//input[@data-autoid='cust_3267_ctrl']
+Funding_Availability=//input[@data-autoid='cust_3268_ctrl']
+Past_Profitability2=//input[@data-autoid='cust_3266_ctrl']
+Regulatory_Impact_Govt_Policy1=//input[@data-autoid='cust_3269_ctrl']
+
+=========================================================
+
+===================Need more Info=========================
+Discussion_Details1=//textarea[@data-autoid='cust_8864_ctrl']
+NeedmoreInfo=//span[contains(text(),'Need more Info')]
+=====================View================
+Category_View=//select[@data-autoid='QueryCategoryId_ctrl']
+Industry_View=//select[@data-autoid='QueryViewId_ctrl']
+Click_Arrow=//a[@data-autoid='gridHF_View0']
+Search_View=//span[@class='f12 primary ff-medium ph-6 acd-link-text']
+Undefined_View=//select[@data-autoid='undefined_ctrl']
+Search_area=//div[@class='field max-wt-30']/child::input[1]
+Click_Industry=//a[@data-autoid='CustomObjectId_5']
+
+===========================Ind RA Reverse======================
+RA_Reverse=//span[contains(text(),'RA Reverse')]
+Click_IndRating=//a[@data-autoid='Subject_0']
+Discussion_Details3=//textarea[@data-autoid='cust_776_ctrl']
+Reverse_Reason3=//a[@data-autoid='cust_9278_srch']
+
+Financial Risk=//span[contains(text(),'Financial Risk')]
+Unsecured_loans=//select[@data-autoid='cust_9791_ctrl']
+Unsecured_loans_subordinated1=//input[@data-autoid='cust_9036_ctrl']
+
+collapse_icon=//i[@class='pointer icon  icon-arrow-bottom']
+            
+Ability_to_raise_funds=//a[@data-autoid='cust_9808_srch']  
+===============================================================
+Role_Select=(//select[@class='selectbox'])[2]
+
+===========================SS rating initiation======================
+
+smallservicesmodel=//div[@data-autoid='F1004_0']
+Trader_New_Model=//div[@data-autoid='F1004_0']
+SmallManufacturing_Model=//div[@data-autoid='F1004_0']
+Financial Risk=//span[contains(text(),'Financial Risk')]
+Unsecured_loans=//select[@data-autoid='cust_9791_ctrl']
+Unsecured_loans_subordinated1=//input[@data-autoid='cust_9036_ctrl']
+
+collapse_icon=//i[@class='pointer icon  icon-arrow-bottom']
+            
+Ability_to_raise_funds=//a[@data-autoid='cust_9808_srch']  
+Is_Foreign_Exchange_risk=//select[@data-autoid='cust_11724_ctrl']
+LL_EBID%=//input[@data-autoid='cust_9062_ctrl']
+
+Business_Risk_Tab=//span[@data-autoid='tab_3']
+Business_Risk_Tab1=//span[contains(text(),'Business Risk')]
+Customer_Diversification=//a[@data-autoid='cust_9812_srch']
+Product_Diversification=//a[@data-autoid='cust_9813_srch']
+Distribution_network=//a[@data-autoid='cust_9815_srch'] 
+Brand_Equity=//a[@data-autoid='cust_9816_srch'] 
+Brand_Equity1=//div[@data-autoid='1_ListofValues_val']
+
+Position_in_the_industry=//a[@data-autoid='cust_9880_srch'] 
+Position_in_the_industry_Trader=//a[@data-autoid='cust_9814_srch'] 
+
+ 
+Legal_Structure=//a[@data-autoid='cust_9809_srch']
+Legal_Structure1=//div[contains(text(),'Sole Proprietorship or Trust')]
+Track_Record=//a[@data-autoid='cust_9811_srch']
+No_of_years_the_company_has_been_in_existence=//input[@data-autoid='cust_9910_ctrl']
+Composition_of_Management=//a[@data-autoid='cust_9878_srch']
+Management_Style=//a[@data-autoid='cust_9818_srch']
+Corporate_governance=//a[@data-autoid='cust_9819_srch']
+existence_for_Management_experience=//input[@data-autoid='cust_11722_ctrl']
+
+Projections=//span[contains(text(),'Projections')]
+Projections_Trader=//span[contains(text(),'Projections')]
+Projection_Applicable=//select[@data-autoid='cust_9883_ctrl']
+Projected_Revenue=//input[@data-autoid='cust_1330_ctrl']
+Projected_Net_Profit_Trader=//input[@data-autoid='cust_1327_ctrl']
+
+Projected_EBIDTA=//input[@data-autoid='cust_1328_ctrl']
+Projected_TOL_TNW=//input[@data-autoid='cust_1326_ctrl']
+validation_close=//i[@class='icon icon-close pointer']
+
+===========================Invoke checklist======================
+Invoke_Checklist=//span[contains(text(),'Invoke Checklist')]
+Edit_Button=//span[contains(text(),'Edit')]
+Quality_checklist1=//a[@data-autoid='tab_12']
+Quality_checklist=//span[contains(text(),'Quality checklist')]
+Down_arrow=//i[@class='icon-icon_dropdown_arrow']
+Plus_icon=//i[@class='icon pointer icon-new']
+Comput_Rating_Button=//span[contains(text(),'Compute Rating')]
+Classification=//select[@data-autoid='cust_10246_ctrl']
+RA_User_Segment=//select[@data-autoid='cust_10249_ctrl']
+Framework_Name=//select[@data-autoid='cust_10387_ctrl']
+Cam_Date=//a[@data-autoid='cust_10392_today']
+Cam_Limit=//input[@data-autoid='cust_10393_ctrl']
+Last_date_of_Call_memo_available=//a[@data-autoid='cust_10394_today']
+Listed_Company=//select[@data-autoid='cust_10395_ctrl']
+BSE_Code=//input[@data-autoid='cust_10396_ctrl']
+No_of_Red_Triggers_in_last_12_months=//input[@data-autoid='cust_10403_ctrl']
+Red_trigger_Remark=//textarea[@data-autoid='cust_10404_ctrl']
+Second_Best_Rating=//select[@data-autoid='cust_10259_ctrl']
+Rating_Agency=//select[@data-autoid='cust_10260_ctrl']
+Rating_Date=//a[@data-autoid='cust_10261_today']
+Issuer_non_co_op=//select[@data-autoid='cust_10262_ctrl']
+Reason_for_Divergence1=//select[@data-autoid='cust_10431_ctrl']
+Reason_for_Divergence2=//select[@data-autoid='cust_10433_ctrl']
+Divergence_Remark1=//textarea[@data-autoid='cust_10435_ctrl']
+Divergence_Remark2=//textarea[@data-autoid='cust_10436_ctrl']
+Divergence_Remark3=//textarea[@data-autoid='cust_10437_ctrl']
+
+=================Quantitative Checks-Assessment==============
+
+Scale=//select[@data-autoid='cust_10465_ctrl']
+Operating_performance=//select[@data-autoid='cust_10466_ctrl']
+Extent_of=//select[@data-autoid='cust_10467_ctrl']
+Capital_structure=//select[@data-autoid='cust_10472_ctrl']
+Scale1=//textarea[@data-autoid='cust_10487_ctrl']
+Capital_structure1=//textarea[@data-autoid='cust_10490_ctrl']
+FA_Intensity1=//textarea[@data-autoid='cust_10495_ctrl']
+Stock_Statement_Analysis1=//textarea[@data-autoid='cust_10500_ctrl']
+Average_WC_Utlisation1=//textarea[@data-autoid='cust_10504_ctrl']
+
+
+
+
+
+Model_Scale_Action_Reason=//select[@data-autoid='cust_10505_ctrl']
+Master_Scale_Action_Reason=//a[@class='field__item picker-icon']
+Modifier=//select[@data-autoid='cust_10507_ctrl']
+Rating_Rationale=//textarea[@data-autoid='cust_10508_ctrl']
+Key_Strengths=//textarea[@data-autoid='cust_10509_ctrl']
+Key_Weakness=//textarea[@data-autoid='cust_10510_ctrl']
+Liquidity_Assessment=//textarea[@data-autoid='cust_10511_ctrl']
+Credit_Feedback=//textarea[@data-autoid='cust_10512_ctrl']
+Discussion_with_RM=//textarea[@data-autoid='cust_10513_ctrl']
+Key_Rating_Sensitivities_Triggers_Monitorables=//textarea[@data-autoid='cust_10514_ctrl']
+Avaibility=//select[@data-autoid='cust_10515_ctrl']
+summary_Downarrow=//i[@class='pointer icon  icon-arrow-bottom']
+
+Checklist_detailpage_Downarrow=//i[@class='icon-icon_dropdown_arrow']
+Quality_checklist_detailpage=//a[@data-autoid='tab_16']
+mfg_Checklist_Detail_Page=(//span[contains(text(),'Checklist')])[2]
+CheckList_Detail_Page=(//span[contains(text(),'CheckList')])[2]
+
+
+====================Checklist Details page====================
+Classification_detail=//span[@data-autoid='cust_10246_ctrl']
+Cam_Date_detail=//span[@data-autoid='cust_10392_ctrl']
+Cam_Limit_detail=//span[@data-autoid='cust_10393_ctrl']
+BSE_Code_detail=//span[@data-autoid='cust_10396_ctrl']
+Second_Best_Rating_detail=//span[@data-autoid='cust_10259_ctrl']
+Rating_Agency_detail=//span[@data-autoid='cust_10260_ctrl']
+Rating_Date_detail=//span[@data-autoid='cust_10261_ctrl']
+Issuer_non_co_op_detail=//span[@data-autoid='cust_10262_ctrl']
+Proposed_Rating_detail=//*[@id="objectWrapper"]/div/div[1]/div/div/div[2]/div/div[4]/div/div[2]/div[3]/div/div/div/div
+Min_Rating_detail=//span[@data-autoid='cust_10557_ctrl']
+Max_Rating_detail=//span[@data-autoid='cust_10558_ctrl']
+IR_ERA_Final_Divergence=//span[@data-autoid='cust_10559_ctrl']
+Min_Rating_internal_detail=//span[@data-autoid='cust_10563_ctrl']
+Max_Rating_internal_detail=//span[@data-autoid='cust_19835_ctrl']
+IR_ERA_internal_Divergence=//span[@data-autoid='cust_10565_ctrl']
+
+
+===========================NBFC rating initiation======================
+
+NBFC_NEW_model=//div[@data-autoid='F1004_0']
+
+Date_of_reference_data=//a[@data-autoid='cust_10661_today']
+Source=//input[@data-autoid='cust_11726_ctrl']
+YTD_Equity_Infusion=//input[@data-autoid='cust_1092_ctrl']
+Current_Year_Disbursements=//input[@data-autoid='cust_1091_ctrl']
+YTD_Disbursements=//input[@data-autoid='cust_1090_ctrl']
+YTD_Collections=//input[@data-autoid='cust_11728_ctrl']
+Current_Year_Collections=//input[@data-autoid='cust_11729_ctrl']
+YTD_Date_for_Borrowing_Current_Year=//a[@data-autoid='cust_10613_today']
+YTD_Date_for_Borrowing_YTD=//a[@data-autoid='cust_10618_today']
+Auto_Other_auto=//input[@data-autoid='cust_9052_ctrl']
+
+Experience_in_Lending_Business=//input[@data-autoid='cust_9004_ctrl']
+Management_Competence=//a[@data-autoid='cust_10601_srch']
+Credit_Underwriting=//a[@data-autoid='cust_10600_srch']
+Ownership=//a[@data-autoid='cust_10597_srch']
+Diversity_of_funding_profile=//a[@data-autoid='cust_10599_srch']
+Market_Position=//a[@data-autoid='cust_10596_srch']
+AUM_Mix=//a[@data-autoid='cust_10602_srch']
+Average_LTV=//a[@data-autoid='cust_10605_srch']
+
+
+=============NBFC Checklist==============
+
+NBFC_Quality_checklist=//a[@data-autoid='tab_9']
+NBFC_Scale1=//select[@data-autoid='cust_19816_ctrl']
+NBFC_Credit Costs=//select[@data-autoid='cust_19825_ctrl']
+Portfolio_cuts_Assessment=//select[@data-autoid='cust_19822_ctrl']
+NBFC_Quality_checklist_detailpage=//a[@data-autoid='tab_15']
+
+===============Large model rating======================
+model_change=//select[@data-autoid='cust_617_ctrl']
+Reason_for_Alt_Model=//input[@data-autoid='cust_162_ctrl']
+Select_Available_Models=//a[@id='WEBR_28']
+Large_Manufacturing_Model=//div[@data-autoid="F1002_3"]
+Position_in_the_industry_LM=//a[@data-autoid='cust_9814_srch'] 
+Supply_chain_management=//a[@data-autoid='cust_9817_srch'] 
+ok_Button=//button[contains(text(),'Ok')]
+RA_click=(//div[contains(text(),'A28430')])[3]
+Rating_Outlook1=//label[contains(text(),'Rating Outlook')]
+
